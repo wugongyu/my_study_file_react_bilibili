@@ -85,3 +85,8 @@
   <img src="https://dxx.github.io/static-resource/react-bilibili/screenshots/11_room.png" width="326px" height="680px" alt="room" />
   <img src="https://dxx.github.io/static-resource/react-bilibili/screenshots/12_room.png" width="326px" height="680px" alt="room" />
 </p>
+
+
+## 相关补充
+1、script脚本中，在相关构建命令之前加入set NODE_OPTIONS=--openssl-legacy-provider，解决[Node JS 17 的 BUG](https://blog.csdn.net/chy555chy/article/details/128481013)。
+2、增加@types/node@11.15.49依赖，版本不能过高，否则报错
